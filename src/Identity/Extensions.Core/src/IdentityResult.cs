@@ -22,7 +22,7 @@ namespace Microsoft.AspNetCore.Identity
         public bool Succeeded { get; protected set; }
 
         /// <summary>
-        /// An <see cref="IEnumerable{T}"/> of <see cref="IdentityError"/>s containing an errors
+        /// An <see cref="IEnumerable{T}"/> of <see cref="IdentityError"/>s containing any errors
         /// that occurred during the identity operation.
         /// </summary>
         /// <value>An <see cref="IEnumerable{T}"/> of <see cref="IdentityError"/>s.</value>
